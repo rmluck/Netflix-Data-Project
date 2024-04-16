@@ -1,8 +1,5 @@
 """
 Analyzes personal Netflix viewing activity.
-
-Rohan Mistry
-Updated: 04/15/2024
 """
 
 # Import necessary libraries.
