@@ -20,3 +20,5 @@ This project contains 1 Python file and 1 csv file. The included files are liste
 The instructions on how to run the program and how the program functions are listed below.
 
 ### Retrieving .csv file with viewing activity data
+
+Before actually using this program, you will need to retrieve a .csv file containing the viewing activity data of your Netflix account. If you are logged into your Netflix account on your browser, you can go to the "[Get My Info](https://www.netflix.com/account/getmyinfo)" page and this page will appear:
