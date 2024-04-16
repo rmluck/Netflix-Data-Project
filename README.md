@@ -16,3 +16,7 @@ This project contains 1 Python file and 1 csv file. The included files are liste
 * __viewing_activity.csv__: sample viewing activity data used to test program
 
 ## Program
+
+The instructions on how to run the program and how the program functions are listed below.
+
+### Retrieving .csv file with viewing activity data
