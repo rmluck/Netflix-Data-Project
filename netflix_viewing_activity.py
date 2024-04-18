@@ -40,7 +40,7 @@ def convert_times(df: pd.DataFrame) -> pd.DataFrame:
     def utc_to_local(utc_dt):
         return utc_dt.replace(tzinfo=timezone.utc).astimezone(tz=time_zone)
 
-    df["Start Time"] = pd.to_datetime(df["Start Time"], utc=True)
+    df["start_time"] = pd.to_datetime(df["Start Time"], utc=True)
     df = df.set_index("start_time")
 
     print("\nIt is necessary to convert all of your viewing data to the correct time zone.")
