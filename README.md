@@ -62,12 +62,13 @@ If you answer with 'A', then the program will analyze your entire account. If yo
 This account's profiles are as follows:
     Charlie
     Ryan
+Which profile would you like to analyze? |
 ```
 
 Answer with your preferred profile and then the program will continue by asking you whether you would like the program to analyze all viewing activity or viewing activity of only movies or only TV shows. All the Netflix data is separated into movies or TV so you get to choose if you would like them to be grouped or if you want to narrow to one medium:
 
 ```
-Would you like to analyze all viewing activity or your viewing activity of only movies or only TV shows (A, M, or TV)?
+Would you like to analyze all viewing activity or your viewing activity of only movies or only TV shows (A, M, or TV)? |
 ```
 
 If you answer with 'A', then the program will analyze both movies and TV. If you enter 'M', then the program will only observe movies. If you enter 'TV', then the program will only observe TV.
@@ -109,6 +110,8 @@ TV Shows you have watched:
 Which title would you like to analyze? |
 ```
 
+### Choose data analysis option
+
 After you have answered all configuration questions, the final prompt will appear, asking you what data analysis option you would like the program to compute based on your specified data preferences:
 
 ```
@@ -118,11 +121,8 @@ Options for Data Analysis:
     Duration
     Most Watched Days
     Most Watched Episodes
-    Most Watched Months
     Most Watched Movies
     Most Watched Shows
-    Start Times
-    Total Time Watched
     Viewing Activity Timeline
     Viewing Frequency
     Viewing Heat Map
@@ -138,3 +138,157 @@ Would you like to continue (Y or N)? |
 ```
 
 If you choose to continue, then the process will restart (besides asking for the data file or time zone). If you choose to stop, then the program will terminate.
+
+## Output
+
+### Countries - All Profiles - All Content - All Titles
+
+### Countries - All Profiles - Movies - All Titles
+
+### Countries - All Profiles - Movies - Specific Title
+
+### Countries - All Profiles - TV Shows - All Titles
+
+### Countries - All Profiles - TV Shows - Specific Title
+
+### Countries - Specific Profile - All Content
+
+### Countries - Specific Profile - Movies - All Titles
+
+### Countries - Specific Profile - Movies - Specific Title
+
+### Countries - Specific Profile - TV Shows - All Titles
+
+### Countries - Specific Profile - TV Shows - Specific Title
+
+### Device Types - All Profiles - All Content - All Titles
+
+### Device Types - All Profiles - Movies - All Titles
+
+### Device Types - All Profiles - Movies - Specific Title
+
+### Device Types - All Profiles - TV Shows - All Titles
+
+### Device Types - All Profiles - TV Shows - Specific Title
+
+### Device Type - Specific Profile - All Content - All Titles
+
+### Device Type - Specific Profile - Movies - All Titles
+
+### Device Type - Specific Profile - Movies - Specific Title
+
+### Device Type - Specific Profile - TV Shows - All Titles
+
+### Device Type - Specific Profile - TV Shows - Specific Title
+
+### Duration - All Profiles - All Content - All Titles
+
+### Duration - All Profiles - Movies - All Titles
+
+### Duration - All Profiles - Movies - Specific Title
+
+### Duration - All Profiles - TV Shows - All Titles
+
+### Duration - All Profiles - TV Shows - Specific Title
+
+### Duration - Specific Profiles - All Content - All Titles
+
+### Duration - Specific Profiles - Movies - All Titles
+
+### Duration - Specific Profiles - Movies - Specific Title
+
+### Duration - Specific Profiles - TV Shows - All Titles
+
+### Duration - Specific Profiles - TV Shows - Specific Title
+
+### Most Watched Days - All Profiles - All Content - All Titles
+
+### Most Watched Days - All Profiles - Movies - All Titles
+
+### Most Watched Days - All Profiles - Movies - Specific Title
+
+### Most Watched Days - All Profiles - TV Shows - All Titles
+
+### Most Watched Days - All Profiles - TV Shows - Specific Title
+
+### Most Watched Days - Specific Profile - All Content - All Titles
+
+### Most Watched Days - Specific Profile - Movies - All Titles
+
+### Most Watched Days - Specific Profile - Movies - Specific Title
+
+### Most Watched Days - Specific Profile - TV Shows - All Titles
+
+### Most Watched Days - Specific Profile - TV Shows - Specific Title
+
+### Most Watched Episodes - All Profiles
+
+### Most Watched Episodes - Specific Profile
+
+### Most Watched Movies - All Profiles
+
+### Most Watched Movies - Specific Profile
+
+### Most Watched Shows - All Profiles
+
+### Most Watched Shows - All Profiles
+
+### Viewing Activity Timeline - All Profiles - All Content - All Titles
+
+### Viewing Activity Timeline - All Profiles - Movies - All Titles
+
+### Viewing Activity Timeline - All Profiles - Movies - Specific Title
+
+### Viewing Activity Timeline - All Profiles - TV Shows - All Titles
+
+### Viewing Activity Timeline - All Profiles - TV Shows - Specific Title
+
+### Viewing Activity Tiemline - Specific Profile - All Content - All Titles
+
+### Viewing Activity Timeline - Specific Profile - Movies - All Titles
+
+### Viewing Activity Timeline - Specific Profile - Movies - Specific Title
+
+### Viewing Activity Timeline - Specific Profile - TV Shows - All Titles
+
+### Viewing Activity Timeline - Specific Profile - TV Shows - Specific Title
+
+### Viewing Frequency - All Profiles - All Content - All Titles
+
+### Viewing Frequency - All Profiles - Movies - All Titles
+
+### Viewing Frequency - All Profiles - Movies - Specific Title
+
+### Viewing Frequency - All Profiles - TV Shows - All Titles
+
+### Viewing Frequency - All Profiles - TV Shows - Specific Title
+
+### Viewing Frequency - Specific Profile - All Content - All Titles
+
+### Viewing Frequency - Specific Profile - Movies - All Titles
+
+### Viewing Frequency - Specific Profile - Movies - Specific Title
+
+### Viewing Frequency - Specific Profile - TV Shows - All Titles
+
+### Viewing Frequency - Specific Profile - TV Shows - Specific Title
+
+### Viewing Heat Map - All Profiles - All Content - All Titles
+
+### Viewing Heat Map - All Profiles - Movies - All Titles
+
+### Viewing Heat Map - All Profiles - Movies - Specific Title
+
+### Viewing Heat Map - All Profiles - TV Shows - All Titles
+
+### Viewing Heat Map - All Profiles - TV Shows - Specific Title
+
+### Viewing Heat Map - Specific Profile - All Content - All Titles
+
+### Viewing Heat Map - Specific Profile - Movies - All Titles
+
+### Viewing Heat Map - Specific Profile - Movies - Specific Title
+
+### Viewing Heat Map - Specific Profile - TV Shows - All Titles
+
+### Viewing Heat Map - Specific Profile - TV Shows - Specific Title

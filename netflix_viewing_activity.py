@@ -11,6 +11,9 @@ from datetime import datetime, timezone
 pd.options.mode.chained_assignment = None
 
 
+# STILL NEED TO IMPLEMENT Most Watched Months, Start Times, AND Total Time Watched
+
+
 def ask_for_data() -> pd.DataFrame:
     """
     Asks for .csv file that contains viewing activity.
@@ -203,9 +206,8 @@ def choose_analysis(df: pd.DataFrame) -> tuple[str, str, str, str]:
         str: chosen title(s) to analyze
     """
 
-    options = {"Viewing Frequency", "Viewing Activity Timeline", "Viewing Heat Map", "Start Times",
-               "Most Watched Days", "Most Watched Months", "Duration",
-               "Total Time Watched", "Most Watched Movies", "Most Watched Shows",
+    options = {"Viewing Frequency", "Viewing Activity Timeline", "Viewing Heat Map", 
+               "Most Watched Days", "Duration", "Most Watched Movies", "Most Watched Shows",
                "Most Watched Episodes", "Device Types", "Countries"}
 
     chosen_type = ""
